@@ -1,0 +1,103 @@
+.header{
+    color: #393e46;
+    text-align: right;
+}
+
+.header-items{
+    margin: 1.2% 0.3%;
+}
+
+.header-text{
+    font-family: Arial, sans-serif;
+    font-size: 0.85rem;
+    display: inline-block;
+}
+
+.header-text:hover{
+    text-decoration: underline; 
+}
+
+.header-grip{
+    color: #686d76;
+    position: relative;
+    top: 2px;
+}
+
+.header-grip:hover{
+    color: #393e46;
+}
+
+.header-button{
+    margin-right: 2%;
+}
+
+.body{
+    padding: 10%;
+    text-align: center;
+}
+
+.search-bar{
+    margin: 1.5% auto;
+    padding: 0.2rem 0.8rem;
+    text-align: left;
+    color: #686d76;
+    border-style: solid;
+    border-color: #cdc9c3;
+    border-width: 1px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.search-bar:hover{
+    box-shadow: 0px 0px 3px #686d76;
+    border-color: white;
+}
+
+.search-form{
+    border: 0;
+    outline: 0;
+    width: 25rem;
+}
+
+.searchbar-icon{
+    padding: 10px;
+}
+
+.main-buttons{
+    position: relative;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    border-style: solid;
+    border-width: 1px 0 0;
+    border-color: #cdc9c3;
+}
+
+.footer-left{
+    display: inline-block;
+    float:left;
+    margin-left: 1rem;
+}
+
+.footer-right{
+    display: inline-block;
+    float:right;
+    margin-right: 1rem;
+}
+
+.footer-text{
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-weight: 100;
+    color: #686d76;
+    font-size: 14px;
+    margin: 0.5rem 0.8rem;
+}
+
+.footer-text:hover{
+    text-decoration: underline;
+}
